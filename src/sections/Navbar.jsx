@@ -3,17 +3,14 @@ import NavLogo from '../components/NavLogo'
 import NavMiddle from '../components/NavMiddle'
 import NavIcons from '../components/NavIcons'
 
-const Navbar = () => {
+const Navbar = ({className=''}) => {
+  
   return (
-    <div className="relative flex items-center py-7.5">
-
-      <NavLogo />
-
-      <NavMiddle />
-
-      <NavIcons />
-
-    </div>
+      <div className={`grid grid-cols-12 items-center py-7.5 ${className}`}>
+        <NavLogo />
+        <NavMiddle />
+        <NavIcons />
+      </div>
   )
 }
 

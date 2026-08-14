@@ -5,26 +5,15 @@ import { FaRegHeart } from "react-icons/fa6";
 import { IoCartOutline } from "react-icons/io5";
 
 const NavIcons = () => {
-
-  const icons = [
-    LuUsers,
-    FiSearch,
-    FaRegHeart,
-    IoCartOutline
-  ]
-
+    const icons = [ LuUsers, FiSearch, FaRegHeart, IoCartOutline ]
   return (
-    <div className="flex-1 flex justify-end">
-      <ul className="flex items-center gap-11">
-        {icons.map((Icon, index) => (
-          <li key={index}>
-            <a href="#">
-              <Icon className="w-7 h-7" />
-            </a>
-          </li>
-        ))}
-      </ul>
-    </div>
+        <div className="grid col-span-4">
+        <ul className='flex items-center justify-center gap-11'>
+          {icons.map((Icon, index) => (
+            <li key={index}><a href="#"><Icon className="w-7 h-7"></Icon></a></li>
+          ))}
+        </ul>
+      </div>
   )
 }
 

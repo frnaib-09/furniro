@@ -1,10 +1,13 @@
 import React from 'react'
 import Navbar from '../sections/Navbar'
+import MobileNav from '../sections/MobileNav'
 
 const Home = () => {
   return (
-    <Navbar />
-    
+    <div>
+      <Navbar className="hidden lg:grid"></Navbar>
+      <MobileNav className="grid lg:hidden"></MobileNav>
+    </div>
   )
 }
 
