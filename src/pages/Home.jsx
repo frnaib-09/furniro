@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <Navbar className="hidden lg:grid"></Navbar>
-      <MobileNav className="grid lg:hidden"></MobileNav>
+      <MobileNav className="flex lg:hidden"></MobileNav>
     </div>
   )
 }

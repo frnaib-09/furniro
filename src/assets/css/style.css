@@ -9,5 +9,5 @@
 }
 
 .navCenter {
-    @apply flex justify-center items-center gap-19 font-primary font-medium text-base text-black;
+    @apply lg:flex justify-center items-center gap-19 font-primary font-medium text-base text-black;
 }
