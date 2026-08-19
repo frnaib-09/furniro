@@ -10,18 +10,26 @@ import MidItems from "../components/MidItems"
 
 const MobileNav = ({children='', className=''}) => {
   return (
-    <div className={`relative flex justify-between items-center py-7.5 px-5 ${className}`}>
-      <button className="text-2xl">
+    <>
+    <div className={`fixed h-screen bg-gray-700/60 w-full  ${className}`}>
+      {/* <button className="text-2xl">
         <HiMenuAlt2 />
-      </button>
-      <NavMiddle className='absolute py-4 bg-gray-700/60 h-full w-full inset-0'>
-        <MidItems className='bg-white h-full w-90 px-8'></MidItems>
+      </button> */}
+      <NavMiddle className=' py-4  bg-white h-full max-w-75 '>
+        {/* <MidItems className='bg-white h-full w-90 px-8'></MidItems> */}
       </NavMiddle>
-      <NavLogo />
+     
+    </div>
+    <div className="flex lg:hidden justify-around py-4">
       <button className="text-2xl">
         <HiMenuAlt3 />
       </button>
-    </div>
+       <NavLogo />
+      <button className="text-2xl">
+        <HiMenuAlt3 />
+      </button>
+     </div>
+     </>
   )
 }
 
