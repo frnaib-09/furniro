@@ -6,7 +6,7 @@ const NavMiddle = ({ children='', className = '' }) => {
   return (
     <div className={`grid col-span-4 justify-center ${className}`}>
       <MidItems className={`${children}`}></MidItems>
-      <NavIcons></NavIcons>
+      <NavIcons classname='lg:hidden'></NavIcons>
     </div>
   )
 }
