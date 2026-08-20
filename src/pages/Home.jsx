@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
       <Navbar className="hidden lg:grid"></Navbar>
-      <MobileNav className="lg:hidden"></MobileNav>
+      <MobileNav className="lg:hidden overflow-hidden"></MobileNav>
       <Banner />
     </div>
   )
