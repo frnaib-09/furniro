@@ -7,16 +7,80 @@
     --font-primary: "Poppins", sans-serif;
     --font-secondary: "Montserrat", sans-serif;
     --color-bg: #fff3e3;
+    --color-dark: #333;
+    --color-light: #666;
 }
 
 .navCenter {
-    @apply lg:flex justify-center items-center gap-19 font-primary font-medium text-base text-black;
+    @apply lg:flex justify-center items-center gap-19 font-primary font-semibold text-base text-dark;
 }
 
 .container {
     @apply mx-auto;
 }
 
+.primary_btn {
+    @apply bg-primary font-primary font-bold text-[12px] lg:text-[16px] uppercase text-white hover:bg-transparent hover:text-primary hover:border-primary hover:border-2 duration-200 ease-in-out;
+}
+
 .card {
-    @apply pt-[62px] pe-[44px] pb-[37px] ps-[39px]
+    @apply  pt-10 lg:pt-15.5 pe-11 pb-9.25 ps-9.75;
+}
+
+.heading {
+    @apply my-14 text-center;
+
+    h1 {
+        @apply font-primary font-bold text-[24px] lg:text-[32px] text-dark;
+    }
+
+    p {
+        @apply font-primary font-normal text-sm lg:text-xl text-light;
+    }
+}
+
+.imgCard {
+    @apply text-center;
+
+    img {
+        @apply w-full min-w-71 
+    }
+
+    p{
+    @apply mt-2.5 lg:mt-7.5 font-primary font-semibold text-lg lg:text-2xl text-center text-dark;
+    }
+}
+
+.productCard {
+    .productImg {
+        @apply relative;
+
+        p {
+            @apply absolute top-3 right-3  w-12 h-12 flex justify-center items-center rounded-full text-sm text-white;
+        }
+    }
+
+    .productData {
+        @apply pt-4 pe-5 pb-7.5 ps-4 bg-[#f4f5f7];
+
+        h1 {
+            @apply font-primary font-semibold text-2xl leading-[120%] mb-2 text-dark;
+        }
+
+        p {
+            @apply font-primary font-medium text-[16px] leading-[150%] mb-2 text-light;
+        }
+
+        h6 {
+            @apply font-primary font-semibold text-xl leading-[150%] text-dark;
+        }
+
+        del {
+            @apply text-light font-primary font-normal text-base leading-[150%]
+        }
+    }
+
+    img {
+        @apply w-full
+    }
 }
