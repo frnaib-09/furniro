@@ -6,8 +6,13 @@
 	--color-primary: #b88e2f;
     --font-primary: "Poppins", sans-serif;
     --font-secondary: "Montserrat", sans-serif;
+    --color-bg: #fff3e3;
 }
 
 .navCenter {
     @apply lg:flex justify-center items-center gap-19 font-primary font-medium text-base text-black;
+}
+
+.card {
+    @apply pt-[62px] pr-[44px] pb-[37px] pl-[39px]
 }
