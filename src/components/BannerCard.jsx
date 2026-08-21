@@ -2,7 +2,7 @@ import React from 'react'
 
 const BannerCard = () => {
   return (
-    <div className="card rounded-[10px] bg-bg max-w-[643px] w-full h-auto">
+    <div className="absolute bottom-20 right-40 card rounded-[10px] bg-bg max-w-[643px] w-full h-auto">
       <span className="font-primary font-[600] text-[16px] tracking-[0.19em] text-[#333] mb-[4px] block">
         New Arrival
       </span>
@@ -14,9 +14,8 @@ const BannerCard = () => {
         luctus nec ullamcorper mattis.
       </p>
       <a
-        className="py-[25px] px-[72px] bg-primary text-white font-primary font-primary font-[700] text-[16px] uppercase text-white mb-[37px]"
-        href="#"
-      >
+        className="py-[25px] px-[72px] bg-primary text-white font-primary font-primary font-[700] text-[16px] uppercase text-white"
+        href="#">
         buy now
       </a>
     </div>

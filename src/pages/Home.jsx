@@ -8,7 +8,10 @@ const Home = () => {
     <div>
       <Navbar className="hidden lg:grid"></Navbar>
       <MobileNav className="lg:hidden overflow-hidden"></MobileNav>
-      <Banner />
+      {/* <Banner /> */}
+      <div className="container">
+        hellow
+      </div>
     </div>
   )
 }
