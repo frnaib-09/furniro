@@ -43,7 +43,7 @@
     @apply text-center;
 
     img {
-        @apply w-full min-w-71 
+        @apply max-w-full w-71 h-auto lg:w-full lg:min-w-71 
     }
 
     p{
@@ -64,19 +64,19 @@
         @apply pt-4 pe-5 pb-7.5 ps-4 bg-[#f4f5f7];
 
         h1 {
-            @apply font-primary font-semibold text-2xl leading-[120%] mb-2 text-dark;
+            @apply font-primary font-semibold text-lg lg:text-2xl leading-[120%] mb-2 text-dark;
         }
 
         p {
-            @apply font-primary font-medium text-[16px] leading-[150%] mb-2 text-light;
+            @apply font-primary font-medium text-sm lg:text-[16px] leading-[150%] mb-2 text-light;
         }
 
         h6 {
-            @apply font-primary font-semibold text-xl leading-[150%] text-dark;
+            @apply font-primary font-semibold text-sm lg:text-xl leading-[150%] text-dark;
         }
 
         del {
-            @apply text-light font-primary font-normal text-base leading-[150%]
+            @apply text-light font-primary font-normal text-xs lg:text-base leading-[150%]
         }
     }
 

@@ -7,7 +7,7 @@ const Products = () => {
     <div className='my-14'>
         <div class="container">
             <Heading title='Our Products' data=''></Heading>
-            <div class="productCards grid grid-cols-12 gap-8 mb-8 min-h-111.5">
+            <div class="productCards grid grid-cols-12 gap-2 md:gap-4 lg:gap-8 mb-8 min-h-111.5">
                 <Product
                     image="/images/syltherine.png"
                     tag="-50%"
@@ -35,7 +35,7 @@ const Products = () => {
                     image="/images/respira.png"
                     tag="New"
                     name="Respira"
-                    details="Outdoor bar table and stool"
+                    details="Outdoor bar table and tool"
                     price="500,000"
                     old_price=""
                 ></Product>

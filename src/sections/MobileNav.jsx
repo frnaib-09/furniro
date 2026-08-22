@@ -6,7 +6,7 @@ import { IoMdClose } from "react-icons/io"
 import NavMiddle from '../components/NavMiddle';
 import NavIcons from '../components/NavIcons'
 
-const MobileNav = ({ className = '' }) => {
+const MobileNav = ({className}) => {
 
   const [open, setOpen] = useState(false);
 

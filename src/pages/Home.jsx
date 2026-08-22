@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div>
       <Navbar className="bg-white fixed top-0 left-0 hidden lg:grid max-w-full z-50"></Navbar>
-      <MobileNav className="lg:hidden overflow-hidden"></MobileNav>
+      <MobileNav className="lg:hidden overflow-hidden fixed top-0 left-0 mx-auto max-w-full z-50"></MobileNav>
       <Banner className='lg:mt-20'></Banner>
       <Range />
       <Products />

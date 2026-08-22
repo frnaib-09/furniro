@@ -6,7 +6,7 @@ const Range = () => {
     <div>
         <div class="container">
             <Heading title='Browse The Range' data='Lorem ipsum dolor sit amet, consectetur adipiscing elit.'></Heading>
-            <div class="imgCards grid grid-cols-12 gap-5 px-4">
+            <div class="imgCards grid grid-cols-12 gap-4 lg:gap-5 px-4">
                 <div class="imgCard grid col-span-6 lg:col-span-4">
                     <img src="/images/dining.png" alt="" />
                     <p>Dining</p>

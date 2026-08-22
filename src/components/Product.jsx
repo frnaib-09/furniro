@@ -2,7 +2,7 @@ import React from 'react'
 
 const Product = ({image, tag, name, details, price, old_price}) => {
     return (
-    <div class="productCard col-span-6 lg:col-span-3 px-4">
+    <div class="productCard col-span-6 lg:col-span-3 md:col-span-4 px-4">
         <div class="productImg">
             <img src={`${image}`} alt="" />
             <div className="corner">
