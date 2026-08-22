@@ -4,6 +4,7 @@ import MobileNav from '../sections/MobileNav'
 import Banner from '../sections/Banner'
 import Range from '../sections/Range'
 import Products from '../sections/Products'
+import Inspiration from '../sections/Inspiration'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Banner className='lg:mt-20'></Banner>
       <Range />
       <Products />
+      <Inspiration />
     </div>
   )
 }

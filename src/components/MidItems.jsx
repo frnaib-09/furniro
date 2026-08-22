@@ -6,7 +6,7 @@ const MidItems = ({className=''}) => {
           "url": "#"},
         {"title": "Shop", 
           "url": "#"},
-        {"title": "About", 
+        {"title": "Blog", 
           "url": "#"},
         {"title": "Contact", 
           "url": "#"},
