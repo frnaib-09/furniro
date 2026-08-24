@@ -78,7 +78,7 @@ const Slider = () => {
             <RiArrowRightSLine className='w-6 h-6'></RiArrowRightSLine>
           </button>
 
-          <div className="custom-pagination-dots absolute bottom-27! right-37! z-20 flex gap-3 items-center"></div>
+          <div className="custom-pagination-dots absolute bottom-27! right-38! z-20 flex gap-3 items-center w-auto! left-auto!"></div>
         </div>
   )
 }

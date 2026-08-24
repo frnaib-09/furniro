@@ -105,17 +105,16 @@
     @apply brightness-50 duration-300 ease-in;
 }
 
-/* Slider Vertically Centered Alignment */
 .swiper-wrapper {
   @apply items-center;
 }
 
-/* Default Small Dots */
 .custom-pagination-dots .swiper-pagination-bullet {
-    @apply w-2.5 h-2.5 bg-[#d8d8d8] opacity-1 m-0! transition-all duration-300 ease-in-out;
+    @apply w-2.5 h-2.5 bg-[#d8d8d8] opacity-100 m-0! transition-all duration-300 ease-in-out;
 }
 
-/* Figma Matching Active Outer Ring Dot */
 .custom-pagination-dots .swiper-pagination-bullet-active {
-    @apply bg-primary! shadow-[0 0 0 4px #fcf8f3, 0 0 0 5px #B88E2F] w-2.5 h-2.5 my-0! mx-1!;
+    @apply bg-primary! w-2.5 h-2.5 my-0! mx-1!;
+
+    box-shadow: 0 0 0 4px #fcf8f3, 0 0 0 5px #B88E2F;
 }
