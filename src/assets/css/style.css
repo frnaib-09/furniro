@@ -118,3 +118,9 @@
 
     box-shadow: 0 0 0 4px #fcf8f3, 0 0 0 5px #B88E2F;
 }
+
+@media (max-width: 1023px) {
+    .custom-pagination-dots .swiper-pagination-bullet {
+        margin-inline: 0.5rem !important;
+    }
+}

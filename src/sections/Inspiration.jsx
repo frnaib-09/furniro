@@ -1,25 +1,21 @@
-import React from 'react';
-import Slider from '../components/Slider'
+import Slider from '../components/Slider';
 
 const Inspiration = () => {
   return (
-    <div className="container bg-[#fcf8f3] h-167.5 overflow-hidden relative">
-      <div className="grid grid-cols-12 h-full">
-        
-        <div className="col-span-12 lg:col-span-5 flex flex-col justify-center text-left bg-[#fcf8f3] z-10 relative lg:py-0 py-10">
-          <h1 className="font-bold text-[40px] leading-[120%] text-[#3a3a3a] ml-8 lg:ml-25">
+    <div className="container relative h-auto overflow-hidden bg-[#fcf8f3] lg:h-167.5">
+      <div className="grid h-full grid-cols-12">
+        <div className="relative z-10 col-span-12 flex flex-col justify-center bg-[#fcf8f3] py-10 text-left lg:col-span-5 lg:py-0">
+          <h1 className="ml-8 text-[32px] leading-[120%] font-bold text-[#3a3a3a] sm:text-[40px] lg:ml-25">
             50+ Beautiful rooms <br /> inspiration
           </h1>
-          <p className="ml-8 lg:ml-25 mt-1.5 font-primary font-medium text-base leading-[150%] text-[#616161]">
+          <p className="ml-8 mt-1.5 max-w-[420px] font-primary text-base leading-[150%] font-medium text-[#616161] lg:ml-25 lg:max-w-none">
             Our designer already made a lot of beautiful prototype of rooms that inspire you
           </p>
-          <a className="ml-8 lg:ml-25 mt-6 primary_btn py-3 px-9 inline-flex w-fit bg-primary text-white font-semibold" href="#">
+          <a className="primary_btn ml-8 mt-6 inline-flex w-fit px-9 py-3 font-semibold lg:ml-25" href="#">
             Explore More
           </a>
         </div>
-
         <Slider />
-
       </div>
     </div>
   );
