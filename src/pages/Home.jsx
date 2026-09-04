@@ -5,6 +5,7 @@ import Banner from '../sections/Banner'
 import Range from '../sections/Range'
 import Products from '../sections/Products'
 import Inspiration from '../sections/Inspiration'
+import ShareSetup from '../sections/ShareSetup'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Range />
       <Products />
       <Inspiration />
+      <ShareSetup />
     </div>
   )
 }
