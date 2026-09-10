@@ -2,8 +2,7 @@ import React from 'react'
 
 const ShareSetup = () => {
   return (
-    <div>
-        <section className="overflow-hidden bg-white py-12 md:py-16 lg:py-20">
+    <section className="share-setup overflow-hidden bg-white py-12 md:py-16 lg:py-20">
       {/* Heading */}
       <div className="mb-8 text-center md:mb-12">
         <p className="mb-2 text-base font-medium text-[#616161] md:text-xl">
@@ -14,96 +13,34 @@ const ShareSetup = () => {
           #FuniroFurniture
         </h2>
       </div>
-
-      {/* Gallery */}
-      <div className="mx-auto max-w-[1440px] px-3 md:px-6">
-        <div className="grid grid-cols-2 gap-3 md:grid-cols-6 md:grid-rows-[180px_180px_180px] md:gap-4 lg:grid-cols-9 lg:grid-rows-[160px_160px_160px]">
-          
-          {/* Image 1 */}
-          <div className="overflow-hidden md:col-span-2 md:row-span-2">
-            <img
-              src="/images/Rectangle 36.png"
-              alt="Furniture setup"
-              className="h-full w-full object-cover transition duration-300 hover:scale-105"
-            />
+      
+      <div className="share-setup__grid" aria-label="Funiro furniture customer setups">
+          <div className="share-setup__tile share-setup__tile--1">
+            <img src="/images/Rectangle 36.png" alt="Modern furniture setup" />
           </div>
-
-          {/* Image 2 */}
-          <div className="overflow-hidden md:col-span-1 md:row-span-2">
-            <img
-              src="/images/Rectangle 36.png"
-              alt="Furniture setup"
-              className="h-full w-full object-cover transition duration-300 hover:scale-105"
-            />
+          <div className="share-setup__tile share-setup__tile--2">
+            <img src="/images/Rectangle 37.png" alt="Furniture detail" />
           </div>
-
-          {/* Image 3 - Center */}
-          <div className="overflow-hidden md:col-span-2 md:row-span-3">
-            <img
-              src="/images/Rectangle 36.png"
-              alt="Dining room"
-              className="h-full w-full object-cover transition duration-300 hover:scale-105"
-            />
+          <div className="share-setup__tile share-setup__tile--4">
+            <img src="/images/Rectangle 39.png" alt="Living room furniture" />
           </div>
-
-          {/* Image 4 */}
-          <div className="overflow-hidden md:col-span-2 md:row-span-2">
-            <img
-              src="/images/Rectangle 36.png"
-              alt="Bedroom"
-              className="h-full w-full object-cover transition duration-300 hover:scale-105"
-            />
+          <div className="share-setup__tile share-setup__tile--5">
+            <img src="/images/Rectangle 40.png" alt="Dining room furniture" />
           </div>
-
-          {/* Image 5 */}
-          <div className="overflow-hidden md:col-span-2 md:row-span-2">
-            <img
-              src="/images/Rectangle 36.png"
-              alt="Kitchen"
-              className="h-full w-full object-cover transition duration-300 hover:scale-105"
-            />
+          <div className="share-setup__tile share-setup__tile--7">
+            <img src="/images/Rectangle 41.png" alt="Home interior" />
           </div>
-
-          {/* Image 6 */}
-          <div className="overflow-hidden md:col-span-2">
-            <img
-              src="/images/Rectangle 36.png"
-              alt="Chair"
-              className="h-full w-full object-cover transition duration-300 hover:scale-105"
-            />
+          <div className="share-setup__tile share-setup__tile--8">
+            <img src="/images/Rectangle 43.png" alt="Styled furniture setup" />
           </div>
-
-          {/* Image 7 */}
-          <div className="overflow-hidden md:col-span-2">
-            <img
-              src="/images/Rectangle 36.png"
-              alt="Interior"
-              className="h-full w-full object-cover transition duration-300 hover:scale-105"
-            />
+          <div className="share-setup__tile share-setup__tile--9">
+            <img src="/images/Rectangle 44.png" alt="Contemporary interior" />
           </div>
-
-          {/* Image 8 */}
-          <div className="overflow-hidden md:col-span-2">
-            <img
-              src="/images/Rectangle 36.png"
-              alt="Furniture"
-              className="h-full w-full object-cover transition duration-300 hover:scale-105"
-            />
+          <div className="share-setup__tile share-setup__tile--10">
+            <img src="/images/Rectangle 45.png" alt="Furniture arrangement" />
           </div>
-
-          {/* Image 9 */}
-          <div className="overflow-hidden md:col-span-1">
-            <img
-              src="/images/Rectangle 36.png"
-              alt="Home interior"
-              className="h-full w-full object-cover transition duration-300 hover:scale-105"
-            />
-          </div>
-
         </div>
-      </div>
     </section>
-    </div>
   )
 }
 

@@ -6,6 +6,7 @@ import Range from '../sections/Range'
 import Products from '../sections/Products'
 import Inspiration from '../sections/Inspiration'
 import ShareSetup from '../sections/ShareSetup'
+import Footer from '../sections/Footer'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Products />
       <Inspiration />
       <ShareSetup />
+      <Footer />
     </div>
   )
 }
