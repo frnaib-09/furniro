@@ -1,6 +1,6 @@
 
 const FooterLMiddle = () => {
-  retun (
+  return (
     <div>FooterLMiddle</div>
   )
 }
