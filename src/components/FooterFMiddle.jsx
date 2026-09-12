@@ -1,7 +1,11 @@
 
 const FooterFMiddle = () => {
   return (
-    <div>FooterFMiddle</div>
+    <div>
+      <ul>
+        <li
+      </ul>
+    </div>
   )
 }
 
