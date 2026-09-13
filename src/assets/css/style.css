@@ -14,7 +14,7 @@
 }
 
 .navCenter {
-    @apply lg:flex justify-center items-center gap-19 font-primary font-semibold text-base text-dark;
+    @apply lg:flex justify-center items-center font-primary font-semibold text-base text-dark;
 }
 
 .container {

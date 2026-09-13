@@ -5,7 +5,7 @@ import NavIcons from "./NavIcons";
 const NavMiddle = ({ children = "", className = "" }) => {
   return (
     <div className={`grid col-span-4 justify-center ${className}`}>
-      <MidItems className={`${children}`}></MidItems>
+      <MidItems className={`${children} gap-19`}></MidItems>
       <NavIcons className="lg:hidden"></NavIcons>
     </div>
   );
