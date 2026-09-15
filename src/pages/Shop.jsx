@@ -8,13 +8,13 @@ import { IoOptionsOutline } from "react-icons/io5";
 const Shop = () => {
   return (
     <div id='shop' className='w-full h-full'>
-      <Navbar />
-      <MobileNav />
+      <Navbar className="bg-white fixed top-0 left-0 hidden lg:grid max-w-full z-50"></Navbar>
+      <MobileNav className="lg:hidden overflow-hidden fixed top-0 left-0 mx-auto max-w-full z-50"></MobileNav>
       <PageHeader title="Shop" />
       <div className="filter bg-[#f9f1e7] py-8.75 px-25 cursor-pointer">
         <form action="">
           <div className="grid grid-cols-12">
-            <div className="col-span-5 items-center flex gap-4">
+            <div className="col-span-5 justify-start items-center flex gap-4">
               <button className='flex items-center gap-3 font-primary font-normal text-xl text-black'><IoOptionsOutline className='w-6.25 h-6.25'></IoOptionsOutline> Filter </button>
               <div className="icons flex items-center gap-6 ml-5.75">
                 <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,6 +25,19 @@ const Shop = () => {
                 </svg>
               </div>
               <p className='font-primary font-normal text-base py-1.5 pl-8.5 border-s border-[#9f9f9f] ml-7.5'>Showing 1 to 16 of 32 results</p>
+            </div>
+            <div className="col-span-7 flex items-center justify-end gap-4">
+              <label htmlFor="show">Show</label>
+              <input name="show" id='show' type="number" className='bg-white text-black max-h-13.75 max-w-13.75 py-3 px-2' value="16" />
+              <label htmlFor="sort">Sort by</label>
+              <select name="sort" id="sort" className='bg-white text-black py-3 px-7.5'>
+                <option value="default">Default</option>
+                <option value="popularity">Popularity</option>
+                <option value="rating">Rating</option>
+                <option value="latest">Latest</option>
+                <option value="price-low-to-high">Price: Low to High</option>
+                <option value="price-high-to-low">Price: High to Low</option>
+              </select>
             </div>
           </div>
         </form>
